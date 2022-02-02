@@ -116,3 +116,21 @@ Blog Cards
   margin: 0;
   border: 1px solid #777;
 }
+/* 
+==========
+Footer
+==========
+*/
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  background: black;
+  color: white;
+  height: 100%;
+  text-align: center;
+}
+
+footer span {
+  display: block;
+}
